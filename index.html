@@ -2,35 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avaliação Minas Brasil</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avaliação Minas Brasil</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="assets/LOGO.png" alt="LOGO" class="logo">
-    <main class="container-input">
-        <form id="ratingForm" action="submit.php" method="post">
-            <label for="valor">Avaliação <span id="displayValor">1</span></label>
-            <br>
-            <button type="submit" id="button"  name="valor" class="button-cta" value="1"> <img src="assets/emoji_triste.png"
-                    alt="triste">
-            </button>
-            <button type="submit" id="button"  name="valor" class="button-cta" value="2"> <img src="assets/emoji_meio_triste.png"
-                    alt="meio_triste">
-            </button>
-            <button type="submit" id="button" name="valor" class="button-cta" value="3"> <img src="assets/emoji_serio.png"
-                    alt="serio"></button>
-            <button type="submit" id="button"  name="valor" class="button-cta" value="4"> <img src="assets/emoji_meio_feliz.png"
-                    alt="meio_feliz">
-            </button>
-            <button type="submit" id="button"  name="valor" class="button-cta" value="5"> <img src="assets/emoji_feliz.png"
-                    alt="Feliz">
-            </button>
-        </form>
-    </main>
-    <script src="script.js"></script>
+        <img src="assets/LOGO.png" alt="LOGO" class="logo">
+        <main class="container-input">
+                <form id="ratingForm" action="submit.php" method="post">
+                        <label for="valor">Avaliação</label>
+                        <br>
+                        <button type="submit" id="button" name="valor" class="button-cta" value="1"> <img
+                                        src="assets/emoji_triste.png" alt="triste">
+                                        <span>Péssimo</span>
+                        </button>
+                        <button type="submit" id="button" name="valor" class="button-cta" value="2"> <img
+                                        src="assets/emoji_meio_triste.png" alt="meio_triste">
+                                        <span>Ruim</span>
+                        </button>
+                        <button type="submit" id="button" name="valor" class="button-cta" value="3"> <img
+                                        src="assets/emoji_serio.png" alt="serio">
+                                        <span>Regular</span>
+                                </button>
+                        <button type="submit" id="button" name="valor" class="button-cta" value="4"> <img
+                                        src="assets/emoji_meio_feliz.png" alt="meio_feliz">
+                                        <span>Bom</span>
+                        </button>
+                        <button type="submit" id="button" name="valor" class="button-cta" value="5"> <img
+                                        src="assets/emoji_feliz.png" alt="Feliz">
+                                        <span>Excelente</span>
+                        </button>
+                </form>
+        </main>
+        <script src="script.js"></script>
 </body>
 
 </html>
