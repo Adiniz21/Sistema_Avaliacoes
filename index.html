@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Minas Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="assets/LOGO.png" alt="LOGO" class="logo">
+    <main class="container-input">
+        <form id="ratingForm" action="submit.php" method="post">
+            <label for="valor">Avaliação <span id="displayValor">1</span></label>
+            <input id="slider" class="slider" name="valor" type="range" min="1" max="5" value="1" oninput="displaySliderValue()">
+            <button type="submit" id="button" class="button-cta">Avaliar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
