@@ -35,13 +35,12 @@ body{
 }
 
 .button-cta{
-    height: 40px;
-    background-color: red;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 40px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
+   width: 15%;
+   border: none;
 }
+
+.emotes{
+    display: flex;
+    flex-direction: row;
+}
+
